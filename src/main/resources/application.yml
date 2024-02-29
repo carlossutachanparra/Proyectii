@@ -1,0 +1,17 @@
+spring:
+  sql:
+    init:
+      platform: h2
+      mode: always
+  datasource:
+    url: jdbc:h2:file:./src/main/resources/db/proyectii;DB_CLOSE_DELAY=-1;AUTO_SERVER=TRUE
+    driverClassName: org.h2.Driver
+    username: proyectii
+    password: password
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: update
+  h2:
+    console:
+      enabled: true

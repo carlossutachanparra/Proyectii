@@ -1,0 +1,16 @@
+2024-02-27 19:38:49 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "USER" no encontrada
+Table "USER" not found; SQL statement:
+insert into user (id, name) values (default, ?) [42102-200]
+2024-02-27 19:42:25 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "USER" no encontrada
+Table "USER" not found; SQL statement:
+insert into user (id, name) values (default, ?) [42102-200]
+2024-02-27 19:43:51 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "USER" no encontrada
+Table "USER" not found; SQL statement:
+insert into user (id, name) values (default, ?) [42102-200]
+2024-02-27 19:45:10 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "USER" no encontrada
+Table "USER" not found; SQL statement:
+insert into user (id, name) values (default, ?) [42102-200]
